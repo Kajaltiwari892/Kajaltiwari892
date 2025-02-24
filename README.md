@@ -32,7 +32,7 @@
 ---
 
 ## 🔥 Projects
-- 🚀 **[BugBerry](https://kajaltiwari892.github.io/Ecommerce-A/)** - Built with **HTML, CSS, JavaScript, and API integration**.
+- 🚀 **[Apna Bazar ](https://kajaltiwari892.github.io/Ecommerce-A/)** - Built with **HTML, CSS and  JavaScript**.
 ---
 
 ## Github Stats
