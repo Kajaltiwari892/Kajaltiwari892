@@ -32,7 +32,9 @@
 ---
 
 ## 🔥 Projects
-- 🚀 **[Apna Bazar ](https://kajaltiwari892.github.io/Ecommerce-A/)** - Built with **HTML, CSS and  JavaScript**.
+- 🚀 **[Apna Bazar ](https://kajaltiwari892.github.io/Apna-Bazar/)** - Built with **HTML, CSS and  JavaScript**.
+- 🤔❓ **[Quiz App ](quiz-app-woad-iota.vercel.app)** - Built with **HTML ,CSS, React , Framer-motion , Reactbits, other tools **.
+- 
 ---
 
 ## Github Stats
