@@ -33,12 +33,6 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
----
-
-## 🔥 Projects
-- 🚀 **[Apna Bazar ](https://kajaltiwari892.github.io/Apna-Bazar/)** - Built with **HTML, CSS and  JavaScript**.
-- 🤔❓ **[Quiz App ](https://quiz-app-woad-iota.vercel.app)** - Built with HTML ,CSS, React.js , Framer-motion , Reactbits, other tools .
-- 📝**[Todo App ](https://todo-react-one-zeta.vercel.app/)** - Built with React.js and Tailwind.
   
 ---
 
