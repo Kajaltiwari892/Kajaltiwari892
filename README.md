@@ -2,18 +2,17 @@
 
 # Hi there, I'm Kajal 👋
 
-**Frontend Developer | Passionate About Crafting Interactive & Responsive Web Experiences 🚀⚡**
+**Full-Stack Developer | Frontend Architecture • Backend Systems • Scalable Products🚀⚡**
 
 ## 🚀 Web Development Enthusiast 🚀
 
 ---
 
 ## 🧑‍💻 About Me
-- 🎯 Frontend Developer skilled in **React, HTML, CSS, JavaScript, Redux, and Chakra UI**.
-- 🎨 Passionate about creating **beautiful & user-friendly web applications**.
-- 📚 Always learning & improving my skills in **APIs & JavaScript frameworks**.
-- 💡 Exploring **React & UI/UX design principles**.
-- 📫 Reach me at: [kanjal55567@gmail.com]
+- Full-Stack Developer with a strong focus on frontend architecture, scalable applications, and performance-driven development. Experienced in building responsive and production-level web applications while maintaining a solid understanding of backend systems, APIs, databases, and application flow.
+
+I focus on writing structured, maintainable, and efficient code with attention to scalability, usability, and real-world product requirements. Constantly improving across both frontend and backend technologies to build complete and impactful applications.
+
 
 ---
 
@@ -32,6 +31,20 @@
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) 
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![Appwrite](https://img.shields.io/badge/Appwrite-FD366E?style=for-the-badge&logo=appwrite&logoColor=white)
+![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
 
   
 ---
