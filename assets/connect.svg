@@ -1,11 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="100" viewBox="0 0 1000 100" fill="none" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="136" viewBox="0 0 1000 136" fill="none" role="img" aria-labelledby="title desc">
   <title id="title">Have an idea worth building?</title>
-  <desc id="desc">Let’s turn it into something useful.</desc>
-  <rect x="1" y="1" width="998" height="98" rx="19" fill="#0D1117" stroke="#354052"/>
-  <path d="M29 33L38 42L29 51M44 51H53" stroke="#66E3C4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="77" y="44" fill="#F0F3F8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="21" font-weight="600" letter-spacing="-.4">Have an idea worth building?</text>
-  <text x="77" y="69" fill="#9AA7B9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="14">Let’s turn it into something useful.</text>
-  <path d="M689 1L589 99M735 1L635 99M781 1L681 99" stroke="#B8A3FF" stroke-opacity=".08"/>
-  <rect x="922" y="27" width="46" height="46" rx="12" fill="#B8A3FF"/>
-  <path d="M936 59L953 42M938 42H953V57" stroke="#27213B" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <desc id="desc">Let’s turn it into something useful. Connect with Kajal Tiwari on LinkedIn.</desc>
+  <defs>
+    <linearGradient id="edge" x1="1" y1="1" x2="999" y2="135" gradientUnits="userSpaceOnUse"><stop stop-color="#354967"/><stop offset="1" stop-color="#544370"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}.pulse{stroke-dasharray:16 84;stroke-dashoffset:100;animation:travel 5s linear infinite}@keyframes travel{to{stroke-dashoffset:0}}@media(prefers-reduced-motion:reduce){.pulse{animation:none;stroke-dasharray:none;opacity:.45}}</style>
+  </defs>
+  <rect x="1" y="1" width="998" height="134" rx="18" fill="#0B101C" stroke="url(#edge)"/>
+  <text x="46" y="60" fill="#F0F4FF" font-size="24" font-weight="600" letter-spacing="-.5">Have an idea worth building?</text>
+  <text x="47" y="90" fill="#A3B0C9" font-size="14">Let’s turn it into something useful.</text>
+  <path d="M515 68H607L623 54H685L700 68H778" stroke="#364762" stroke-width="1.3"/>
+  <path class="pulse" d="M515 68H607L623 54H685L700 68H778" pathLength="100" stroke="#68E1EF" stroke-width="2" stroke-linecap="round" filter="url(#glow)"/>
+  <circle cx="574" cy="68" r="3" fill="#BB9CFF"/>
+  <circle cx="745" cy="68" r="3" fill="#68E1EF"/>
+  <rect x="796" y="46" width="158" height="44" rx="9" fill="#162338" stroke="#48506E"/>
+  <text x="817" y="73" fill="#D9D1FF" font-size="13" font-weight="600">LET’S CONNECT</text>
+  <path d="M928 71L936 63M929 63H936V70" stroke="#68E1EF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

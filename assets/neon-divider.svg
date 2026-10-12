@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="64" viewBox="0 0 1000 64" fill="none" role="img" aria-label="Connected neon path">
+  <defs>
+    <linearGradient id="wire" x1="42" y1="0" x2="958" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#68E1EF" stop-opacity="0"/><stop offset=".22" stop-color="#68E1EF"/><stop offset=".5" stop-color="#BB9CFF"/><stop offset=".78" stop-color="#68E1EF"/><stop offset="1" stop-color="#68E1EF" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-30%" y="-150%" width="160%" height="400%"><feGaussianBlur stdDeviation="2.4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>.flow{stroke-dasharray:7 93;stroke-dashoffset:100;animation:travel 7s linear infinite}@keyframes travel{to{stroke-dashoffset:0}}@media(prefers-reduced-motion:reduce){.flow{animation:none;stroke-dasharray:none;opacity:.4}}</style>
+  </defs>
+  <path d="M42 32H288L304 20H450L470 44H696L712 32H958" stroke="url(#wire)" stroke-opacity=".35" stroke-width="1.2"/>
+  <path class="flow" d="M42 32H288L304 20H450L470 44H696L712 32H958" pathLength="100" stroke="url(#wire)" stroke-width="2" stroke-linecap="round" filter="url(#glow)"/>
+  <circle cx="202" cy="32" r="3" fill="#68E1EF" fill-opacity=".65"/><circle cx="380" cy="20" r="3" fill="#BB9CFF" fill-opacity=".75"/><circle cx="607" cy="44" r="3" fill="#BB9CFF" fill-opacity=".75"/><circle cx="798" cy="32" r="3" fill="#68E1EF" fill-opacity=".65"/>
+</svg>

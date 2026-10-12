@@ -1,80 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">Kajal Tiwari — full-stack developer</title>
-  <desc id="desc">Design meets development. Thoughtful interfaces. Connected systems. React, Next.js, and TypeScript. An abstract code window sits inside a slowly moving geometric orbit.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Kajal Tiwari — Full-stack developer</title>
+  <desc id="desc">Thoughtful interfaces. Connected systems. React, Next.js, TypeScript, and AI. Neon paths connect three interface, API, and data panels, showing the journey from a product idea to a working application.</desc>
   <defs>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" stroke="#7961C6" stroke-opacity=".065"/>
-    </pattern>
-    <linearGradient id="edge" x1="0" y1="0" x2="1000" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#B8A3FF" stop-opacity=".7"/>
-      <stop offset=".5" stop-color="#DDE1E8"/>
-      <stop offset="1" stop-color="#6BBCA9" stop-opacity=".55"/>
-    </linearGradient>
-    <clipPath id="card"><rect x="1" y="1" width="998" height="318" rx="23"/></clipPath>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" stroke="#6C75A0" stroke-opacity=".065"/></pattern>
+    <linearGradient id="rim" x1="25" y1="1" x2="972" y2="358" gradientUnits="userSpaceOnUse"><stop stop-color="#7851D2" stop-opacity=".45"/><stop offset=".5" stop-color="#CBD4E5"/><stop offset="1" stop-color="#007F93" stop-opacity=".4"/></linearGradient>
+    <linearGradient id="route" x1="760" y1="109" x2="840" y2="258" gradientUnits="userSpaceOnUse"><stop stop-color="#7851D2"/><stop offset="1" stop-color="#007F93"/></linearGradient>
+    <radialGradient id="ambient"><stop stop-color="#7851D2" stop-opacity=".09"/><stop offset="1" stop-color="#7851D2" stop-opacity="0"/></radialGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="2.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip"><rect x="1" y="1" width="998" height="358" rx="24"/></clipPath>
     <style>
-      text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; }
-      .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
-      .orbit { transform-origin: 812px 159px; animation: orbit 26s linear infinite; }
-      .window { animation: float 6s ease-in-out infinite; }
-      .signal { animation: signal 3s ease-in-out infinite; }
-      .cursor { animation: blink 2.4s step-end infinite; }
-      @keyframes orbit { to { transform: rotate(360deg); } }
-      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
-      @keyframes signal { 0%,100% { opacity: .45; } 50% { opacity: 1; } }
-      @keyframes blink { 0%,70%,100% { opacity: 1; } 75%,95% { opacity: .2; } }
-      @media (prefers-reduced-motion: reduce) { .orbit,.window,.signal,.cursor { animation: none; } }
+      text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
+      .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
+      .flow{stroke-dasharray:14 86;stroke-dashoffset:100;animation:travel 4.6s linear infinite}
+      .flow2{animation-delay:-2.3s}
+      .status{animation:breath 3.6s ease-in-out infinite}
+      @keyframes travel{to{stroke-dashoffset:0}}
+      @keyframes breath{0%,100%{opacity:.5}50%{opacity:1}}
+      @media(prefers-reduced-motion:reduce){.flow,.status{animation:none}.flow{stroke-dasharray:none;opacity:.5}}
     </style>
   </defs>
-  <rect x="1" y="1" width="998" height="318" rx="23" fill="#F7F8FC" stroke="url(#edge)"/>
-  <g clip-path="url(#card)">
-    <path d="M635 0H1000V320H635Z" fill="url(#grid)"/>
-    <path d="M635 32V288" stroke="#7961C6" stroke-opacity=".16" stroke-dasharray="3 7"/>
-    <path d="M32 52V32H52M948 288H968V268" stroke="#7961C6" stroke-opacity=".4"/>
-    <rect x="54" y="48" width="7" height="7" rx="1.5" fill="#29987D"/>
-    <text x="73" y="56" fill="#65718A" font-size="11" font-weight="600" letter-spacing="2.1">DESIGN MEETS DEVELOPMENT</text>
-    <text x="51" y="139" fill="#202940" font-size="65" font-weight="700" letter-spacing="-3.2">Kajal Tiwari<tspan fill="#7961C6">.</tspan></text>
-    <text x="54" y="180" fill="#7156BA" font-size="24" font-weight="500" letter-spacing="-.5">Full-stack developer.</text>
-    <text x="54" y="212" fill="#66728A" font-size="16" letter-spacing=".1">Thoughtful interfaces. Connected systems.</text>
-    <path d="M54 243H586" stroke="#E0E3EC"/>
-    <text x="54" y="274" fill="#53617B" font-size="12" class="mono">React</text>
-    <circle cx="108" cy="270" r="1.5" fill="#A4ADBF"/>
-    <text x="124" y="274" fill="#53617B" font-size="12" class="mono">Next.js</text>
-    <circle cx="194" cy="270" r="1.5" fill="#A4ADBF"/>
-    <text x="210" y="274" fill="#53617B" font-size="12" class="mono">TypeScript</text>
-    <text x="586" y="274" text-anchor="end" fill="#8290A5" font-size="10" class="mono">IDEA → INTERFACE</text>
+  <rect x="1" y="1" width="998" height="358" rx="24" fill="#F6F8FC" stroke="url(#rim)"/>
+  <g clip-path="url(#clip)">
+    <path d="M616 1H999V359H616Z" fill="url(#grid)"/>
+    <ellipse cx="790" cy="170" rx="245" ry="205" fill="url(#ambient)"/>
+    <path d="M613 43V317" stroke="#CFD7E7" stroke-dasharray="2 8"/>
+    <path d="M51 41H70M930 319H949" stroke="#7851D2" stroke-opacity=".65" stroke-width="2" stroke-linecap="round"/>
+    <circle class="status" cx="56" cy="64" r="3" fill="#007F93"/>
+    <text x="70" y="68" fill="#576680" font-size="10" font-weight="600" letter-spacing="1.7">DESIGNED TO WORK. BUILT TO CONNECT.</text>
+    <text x="49" y="144" fill="#18233C" font-size="64" font-weight="700" letter-spacing="-3.2">Kajal Tiwari<tspan fill="#7851D2">.</tspan></text>
+    <text x="52" y="183" fill="#7851D2" font-size="23" font-weight="500" letter-spacing="-.4">Full-stack developer.</text>
+    <text x="52" y="220" fill="#576680" font-size="16">Thoughtful interfaces. Connected systems.</text>
+    <path d="M52 252H561" stroke="#CFD7E7"/>
+    <text x="52" y="285" fill="#576680" font-size="12" class="mono">React</text>
+    <circle cx="106" cy="281" r="1.5" fill="#77849A"/>
+    <text x="122" y="285" fill="#576680" font-size="12" class="mono">Next.js</text>
+    <circle cx="190" cy="281" r="1.5" fill="#77849A"/>
+    <text x="207" y="285" fill="#576680" font-size="12" class="mono">TypeScript</text>
+    <circle cx="300" cy="281" r="1.5" fill="#77849A"/>
+    <text x="317" y="285" fill="#576680" font-size="12" class="mono">AI</text>
+    <path d="M530 277L535 281L530 285M550 277L545 281L550 285" stroke="#007F93" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <circle cx="812" cy="159" r="112" stroke="#7961C6" stroke-opacity=".23"/>
-    <circle cx="812" cy="159" r="94" stroke="#29987D" stroke-opacity=".18" stroke-dasharray="2 10"/>
-    <path d="M674 159H699M925 159H950M812 23V46M812 272V295" stroke="#7E8BA0" stroke-opacity=".4"/>
-    <g class="orbit">
-      <circle cx="812" cy="47" r="5" fill="#9B82E1"/>
-      <circle cx="812" cy="47" r="10" stroke="#9B82E1" stroke-opacity=".25"/>
-      <circle cx="812" cy="271" r="3" fill="#29987D"/>
-    </g>
-    <g class="window">
-      <rect x="701" y="83" width="222" height="157" rx="12" fill="#D9DDEA" fill-opacity=".5" transform="translate(0 7)"/>
-      <rect x="701" y="83" width="222" height="157" rx="12" fill="#FFFFFF" stroke="#CCD2E2"/>
-      <path d="M702 114H922" stroke="#E2E6F0"/>
-      <circle cx="718" cy="99" r="3" fill="#9B82E1"/>
-      <circle cx="730" cy="99" r="3" fill="#CBD1E0"/>
-      <circle cx="742" cy="99" r="3" fill="#CBD1E0"/>
-      <text x="906" y="102" text-anchor="end" fill="#75849C" font-size="9" class="mono">portfolio.tsx</text>
-      <path d="M735 136L725 144L735 152M760 136L770 144L760 152M751 132L744 156" stroke="#29987D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      <rect x="725" y="174" width="41" height="5" rx="2.5" fill="#9B82E1"/>
-      <rect x="774" y="174" width="87" height="5" rx="2.5" fill="#B7C2D6"/>
-      <rect x="736" y="188" width="63" height="5" rx="2.5" fill="#B7C2D6"/>
-      <rect x="807" y="188" width="53" height="5" rx="2.5" fill="#66BBA6"/>
-      <rect x="736" y="202" width="85" height="5" rx="2.5" fill="#B7C2D6"/>
-      <rect x="829" y="202" width="28" height="5" rx="2.5" fill="#B8A3E6"/>
-      <rect class="cursor" x="864" y="199" width="2" height="11" rx="1" fill="#29987D"/>
-      <rect x="860" y="128" width="45" height="29" rx="6" fill="#F0ECF9" stroke="#DDD3EF"/>
-      <path d="M875 142L881 147L890 137" stroke="#8A6BC8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </g>
-    <rect x="774" y="251" width="170" height="31" rx="7" fill="#EAF5F0" stroke="#BCDACF"/>
-    <circle class="signal" cx="789" cy="266.5" r="3" fill="#29987D"/>
-    <text x="800" y="270" fill="#477C6D" font-size="10" letter-spacing=".4" class="mono">build. learn. refine.</text>
-    <path d="M681 241V261H706" stroke="#29987D" stroke-opacity=".45" stroke-linecap="round"/>
-    <path d="M942 64H931V75" stroke="#7961C6" stroke-opacity=".6" stroke-linecap="round"/>
-    <text x="945" y="42" text-anchor="end" fill="#8290A5" font-size="9" letter-spacing="1.2" class="mono">KT / 001</text>
+    <path d="M683 84H649V179H713M944 179H956V275H905" stroke="#CFD7E7" stroke-width="1.2"/>
+    <path d="M789 113V126Q789 134 797 134H825Q833 134 833 142V151M833 209V221Q833 229 825 229H779Q771 229 771 237V249" stroke="url(#route)" stroke-opacity=".4" stroke-width="1.5"/>
+    <path class="flow" d="M789 113V126Q789 134 797 134H825Q833 134 833 142V151" pathLength="100" stroke="#7851D2" stroke-width="2.2" stroke-linecap="round" filter="url(#glow)" opacity=".46"/>
+    <path class="flow flow2" d="M833 209V221Q833 229 825 229H779Q771 229 771 237V249" pathLength="100" stroke="#007F93" stroke-width="2.2" stroke-linecap="round" filter="url(#glow)" opacity=".46"/>
+    <circle cx="649" cy="84" r="3" fill="#F6F8FC" stroke="#7851D2" stroke-opacity=".5"/>
+    <circle cx="956" cy="275" r="3" fill="#F6F8FC" stroke="#007F93" stroke-opacity=".5"/>
+
+    <rect x="666" y="55" width="248" height="58" rx="12" fill="#FFFFFF" stroke="#CBD4E5"/>
+    <rect x="680" y="69" width="30" height="30" rx="8" fill="#EFF3FA"/>
+    <rect x="687" y="77" width="16" height="13" rx="2" stroke="#7851D2" stroke-width="1.4"/><path d="M687 81H703" stroke="#7851D2" stroke-width="1.2"/>
+    <text x="723" y="80" fill="#18233C" font-size="13" font-weight="600">Interface</text>
+    <text x="723" y="98" fill="#576680" font-size="10" class="mono">where ideas take shape</text>
+    <circle cx="892" cy="76" r="2.5" fill="#7851D2"/>
+
+    <rect x="720" y="151" width="224" height="58" rx="12" fill="#FFFFFF" stroke="#CBD4E5"/>
+    <rect x="734" y="165" width="30" height="30" rx="8" fill="#EFF3FA"/>
+    <path d="M744 174L739 180L744 186M754 174L759 180L754 186M751 172L747 188" stroke="#007F93" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="777" y="176" fill="#18233C" font-size="13" font-weight="600">API + AI</text>
+    <text x="777" y="194" fill="#576680" font-size="10" class="mono">logic with a purpose</text>
+    <circle class="status" cx="923" cy="172" r="2.5" fill="#007F93"/>
+
+    <rect x="648" y="249" width="256" height="58" rx="12" fill="#FFFFFF" stroke="#CBD4E5"/>
+    <rect x="662" y="263" width="30" height="30" rx="8" fill="#EFF3FA"/>
+    <ellipse cx="677" cy="272" rx="7" ry="3" stroke="#007F93" stroke-width="1.3"/>
+    <path d="M670 272V283C670 287 684 287 684 283V272M670 278C670 282 684 282 684 278" stroke="#007F93" stroke-width="1.3"/>
+    <text x="705" y="274" fill="#18233C" font-size="13" font-weight="600">Data</text>
+    <text x="705" y="292" fill="#576680" font-size="10" class="mono">a foundation that lasts</text>
+    <circle cx="882" cy="270" r="2.5" fill="#007F93"/>
   </g>
 </svg>
