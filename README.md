@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" width="100%" alt="Kajal Tiwari — Full-stack developer. Thoughtful interfaces. Connected systems.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-neon-dark.svg">
+  <img src="assets/hero-neon-light.svg" width="100%" alt="Kajal Tiwari — Full-stack developer. Thoughtful interfaces. Connected systems.">
 </picture>
 
 <br>
@@ -29,7 +29,7 @@ A closer look at the products I build and the engineering behind them.
 
 <br>
 
-<a href="https://new-resume-ai.vercel.app/"><img src="assets/project-resume.svg" width="100%" alt="ResumeIQ — AI career tools. From experience to a stronger resume."></a>
+<a href="https://new-resume-ai.vercel.app/"><img src="assets/project-resume-neon.svg" width="100%" alt="ResumeIQ — AI career tools. From experience to a stronger resume."></a>
 
 <br>
 
@@ -110,7 +110,7 @@ Generate practice questions for a role, answer aloud, and revisit saved response
 <img src="assets/neon-divider.svg" width="100%" alt="">
 <br>
 
-<a href="https://fizzi-demo.vercel.app/"><img src="assets/project-fizzi.svg" width="100%" alt="Fizzi — interactive 3D. A product story with a little fizz."></a>
+<a href="https://fizzi-demo.vercel.app/"><img src="assets/project-fizzi-neon.svg" width="100%" alt="Fizzi — interactive 3D. A product story with a little fizz."></a>
 
 <br>
 
@@ -150,7 +150,7 @@ A playful showcase built around animated 3D soda cans. Scroll-driven scenes, res
 
 <br>
 
-<a href="https://www.linkedin.com/in/kajal-tiwari-46802034a/"><img src="assets/connect.svg" width="100%" alt="Have an idea worth building? Connect with Kajal on LinkedIn."></a>
+<a href="https://www.linkedin.com/in/kajal-tiwari-46802034a/"><img src="assets/connect-neon.svg" width="100%" alt="Have an idea worth building? Connect with Kajal on LinkedIn."></a>
 
 <br>
 
