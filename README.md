@@ -21,6 +21,10 @@ I'm **Kajal Tiwari**, a full-stack developer building AI-powered products and in
 
 My projects bring together **React and Next.js**, **Node.js and Python**, and **applied AI**. I enjoy turning a complicated task into a clear sequence: understand a resume, practice for an exam, prepare for an interview, or explore a product in 3D.
 
+### Beyond the code
+
+I'm a curious girl who loves **painting** and learning about **cosmology**—from our solar system to the universe beyond. There's always another question I want to explore. **The curiosity never ends.**
+
 <img src="assets/neon-divider.svg" width="100%" alt="">
 
 ## Selected work
