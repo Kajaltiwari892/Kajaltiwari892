@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="274" viewBox="0 0 440 274" role="img" aria-labelledby="title description">
+<title id="title">ResumeIQ</title><desc id="description">AI feedback, stronger bullet points, and job matching—from upload to PDF. Built with Next.js · Express · MongoDB, Gemini · JWT · Stripe.</desc>
+<defs><linearGradient id="surface" x2="1" y2="1"><stop stop-color="#121B2A"/><stop offset="1" stop-color="#0D121D"/></linearGradient><linearGradient id="border"><stop stop-color="#B4A1FF" stop-opacity=".65"/><stop offset=".5" stop-color="#344156"/><stop offset="1" stop-color="#B4A1FF" stop-opacity=".3"/></linearGradient></defs>
+<rect x="8" y="8" width="424" height="250" rx="16" fill="url(#surface)" stroke="url(#border)" stroke-width="1.5"/>
+<path d="M34 36h13" stroke="#B4A1FF" stroke-width="2.5" stroke-linecap="round"/>
+<g font-family="Segoe UI,Arial,sans-serif"><text x="55" y="40" fill="#B4A1FF" font-size="10" font-weight="600" letter-spacing="1.15">02 / AI RESUME WORKSPACE</text>
+<text x="32" y="81" fill="#F0F4FC" font-size="30" font-weight="700" letter-spacing="-.9">ResumeIQ</text>
+<text fill="#BBC7DB" font-size="16"><tspan x="33" y="117">AI feedback, stronger bullet points,</tspan><tspan x="33" y="140">and job matching—from upload to PDF.</tspan></text>
+<path d="M33 161h374" stroke="#2B384C"/>
+<text fill="#9EABC2" font-size="12.5"><tspan x="33" y="184">Next.js · Express · MongoDB</tspan><tspan x="33" y="204">Gemini · JWT · Stripe</tspan></text>
+<circle cx="36" cy="235" r="2.5" fill="#B4A1FF"/><text x="47" y="239" fill="#B4A1FF" font-size="10" font-weight="600" letter-spacing="1.1">OPEN RESUMEIQ</text></g>
+<path d="M394 241l10-10m-9 0h9v9" fill="none" stroke="#B4A1FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(352 43)" fill="none" stroke="#B4A1FF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity=".8"><rect x="8" y="2" width="32" height="41" rx="5"/><path d="M16 13h16m-16 8h16m-16 8h9m4 7 5 5 10-12"/></g>
+</svg>

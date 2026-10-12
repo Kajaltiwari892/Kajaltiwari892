@@ -25,106 +25,49 @@ My projects bring together **React and Next.js**, **Node.js and Python**, and **
 
 ## Selected work
 
-A closer look at the products I build and the engineering behind them.
-
-<br>
-
-<a href="https://new-resume-ai.vercel.app/"><img src="assets/project-resume-neon.svg" width="100%" alt="ResumeIQ — AI career tools. From experience to a stronger resume."></a>
-
-<br>
-
-### ResumeIQ · AI resume workspace
-
-A workspace that turns resume feedback into practical edits. Upload a PDF or DOCX, review ATS-focused feedback, strengthen individual bullet points, compare a job description, and export an updated PDF.
-
-**Skills in practice:** document processing, structured AI responses, REST API design, authentication, and subscription billing integration.
-
-`Next.js` `TypeScript` `Node.js` `Express` `MongoDB` `Gemini` `Stripe`
+<p align="center">
+  <a href="https://abhyaas-two.vercel.app/"><img src="assets/card-abhyaas.svg" width="400" alt="Abhyaas — CDS practice, AI doubt-solving, and progress tracking. Next.js, Python, FastAPI, PostgreSQL, Gemini, Qdrant. Explore the app."></a>
+  &nbsp;
+  <a href="https://new-resume-ai.vercel.app/"><img src="assets/card-resumeiq.svg" width="400" alt="ResumeIQ — AI resume feedback, bullet rewrites, and job matching. Next.js, Express, MongoDB, Gemini, JWT, Stripe. Open the app."></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Kajaltiwari892/Alssist"><img src="assets/card-aissist.svg" width="400" alt="AIssist — Spoken interview practice with AI feedback. Next.js, Gemini, Clerk, Drizzle, Neon PostgreSQL. Explore the code."></a>
+  &nbsp;
+  <a href="https://fizzi-demo.vercel.app/"><img src="assets/card-fizzi.svg" width="400" alt="Fizzi — An interactive 3D product story. Next.js, Three.js, React Three Fiber, GSAP, Prismic. Open the experience."></a>
+</p>
 
 <details>
-<summary><strong>Inside the build — ResumeIQ</strong></summary>
+<summary><strong>Project links & engineering details</strong></summary>
 
-- **Document workflows:** PDF/DOCX parsing, resume validation, editable sections, and PDF generation with PDFKit.
-- **Applied AI:** Gemini responses with JSON schemas, targeted bullet rewrites, job-description matching, and fallback analysis.
-- **Backend & authentication:** Express APIs, Mongoose models, resource ownership checks, JWT authentication, rotating refresh tokens, and request limits.
-- **Billing integration:** Stripe Checkout, a billing portal, and signed webhook handling.
+### Abhyaas
 
-</details>
+[Explore the app ↗](https://abhyaas-two.vercel.app/)
 
-<br>
+- **AI & retrieval:** Gemini embeddings, Qdrant semantic search, source references, and a database search fallback.
+- **Backend & data:** Python, FastAPI, Pydantic, async SQLAlchemy, PostgreSQL, and Alembic migrations.
+- **Product workflows:** authenticated study sessions, saved practice results, mistake notebooks, progress charts, and backend tests.
 
-[Explore code ↗](https://github.com/Kajaltiwari892/New-Resume-Ai) &nbsp; · &nbsp; [Open ResumeIQ ↗](https://new-resume-ai.vercel.app/)
+### ResumeIQ
 
-<br>
-<img src="assets/neon-divider.svg" width="100%" alt="">
-<br>
+[Open the app ↗](https://new-resume-ai.vercel.app/) · [Explore code ↗](https://github.com/Kajaltiwari892/New-Resume-Ai)
 
-<a href="https://abhyaas-two.vercel.app/"><img src="assets/project-abhyaas.svg" width="100%" alt="Abhyaas — CDS preparation. Practice with purpose. Learn with direction."></a>
+- **Documents & AI:** PDF/DOCX parsing, structured Gemini responses, targeted rewrites, job matching, and PDFKit exports.
+- **Backend & authentication:** Express APIs, Mongoose, ownership checks, JWT, rotating refresh tokens, and request limits.
+- **Billing integration:** Stripe Checkout, a billing portal, and signed webhooks.
 
-<br>
-
-### Abhyaas · A connected study workspace
-
-A focused CDS preparation platform that brings topic practice, previous papers, AI doubt-solving, and progress tracking together. Saved attempts, a mistake notebook, and a daily study roadmap help learners pick up where they left off.
-
-**Skills in practice:** retrieval-augmented generation (RAG), semantic search, Python APIs, relational data modelling, authentication, and progress visualization.
-
-`Next.js` `TypeScript` `Python` `FastAPI` `PostgreSQL` `Gemini` `Qdrant`
-
-<details>
-<summary><strong>Inside the build — Abhyaas</strong></summary>
-
-- **AI grounded in study material:** Gemini embeddings, Qdrant retrieval, source references, and a database search fallback.
-- **Typed Python backend:** FastAPI endpoints, Pydantic validation, async SQLAlchemy, and Alembic migrations.
-- **Persistent learning workflows:** saved practice results, notebook revision sessions, study plans, and daily check-ins.
-- **Authentication & testing:** Google sign-in, JWT access tokens, refresh sessions, and backend tests for authentication, retrieval, and study workflows.
-- **Interactive frontend:** Recharts progress views and a Three.js study companion.
-
-</details>
-
-<br>
-
-[Explore Abhyaas ↗](https://abhyaas-two.vercel.app/)
-
-<br>
-<img src="assets/neon-divider.svg" width="100%" alt="">
-<br>
-
-<a href="https://github.com/Kajaltiwari892/Alssist"><img src="assets/project-aissist.svg" width="100%" alt="AIssist — AI interview practice. Practice your answers. Find your voice."></a>
-
-<br>
-
-### AIssist · Interview practice, out loud
-
-Generate practice questions for a role, answer aloud, and revisit saved responses with AI feedback. The experience combines speech-to-text, a webcam practice view, and interview history in a personal dashboard.
-
-**Skills in practice:** browser speech APIs, AI question generation, Clerk authentication, and relational schema design with Drizzle.
-
-`Next.js` `TypeScript` `Gemini` `Clerk` `Drizzle ORM` `Neon PostgreSQL`
-
-<br>
+### AIssist
 
 [Explore code ↗](https://github.com/Kajaltiwari892/Alssist)
 
-<br>
-<img src="assets/neon-divider.svg" width="100%" alt="">
-<br>
+Browser speech APIs, Gemini interview questions and answer feedback, Clerk authentication, and saved sessions with Drizzle and Neon PostgreSQL.
 
-<a href="https://fizzi-demo.vercel.app/"><img src="assets/project-fizzi-neon.svg" width="100%" alt="Fizzi — interactive 3D. A product story with a little fizz."></a>
+### Fizzi
 
-<br>
+[Open the experience ↗](https://fizzi-demo.vercel.app/) · [Explore code ↗](https://github.com/Kajaltiwari892/Fizzi)
 
-### Fizzi · A product experience in motion
+React Three Fiber scenes, GSAP scroll choreography, responsive layouts, and Prismic content integration.
 
-A playful showcase built around animated 3D soda cans. Scroll-driven scenes, responsive layouts, and Prismic-managed content turn a product page into an interactive story.
-
-**Skills in practice:** 3D scene composition, scroll choreography, motion design, and CMS integration.
-
-`Next.js` `TypeScript` `React Three Fiber` `Three.js` `GSAP` `Prismic`
-
-<br>
-
-[Explore code ↗](https://github.com/Kajaltiwari892/Fizzi) &nbsp; · &nbsp; [Open Fizzi ↗](https://fizzi-demo.vercel.app/)
+</details>
 
 <br>
 <img src="assets/neon-divider.svg" width="100%" alt="">
