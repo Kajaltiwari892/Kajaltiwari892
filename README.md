@@ -1,56 +1,77 @@
-## Hi there 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" width="100%" alt="Kajal Tiwari — Full-stack developer. Thoughtful interfaces. Connected systems.">
+</picture>
 
-# Hi there, I'm Kajal 👋
+<p align="center">
+  <a href="https://portfolio-six-green-94.vercel.app/"><img src="assets/portfolio-link.svg" alt="Explore my portfolio" height="34"></a>
+  <a href="https://www.linkedin.com/in/kajal-tiwari-46802034a/"><img src="assets/linkedin-link.svg" alt="Connect on LinkedIn" height="34"></a>
+  <a href="#selected-work"><img src="assets/work-link.svg" alt="See selected projects" height="34"></a>
+</p>
 
-**Full-Stack Developer | Frontend Architecture • Backend Systems • Scalable Products🚀⚡**
+## From the first interaction to the API behind it.
 
-## 🚀 Web Development Enthusiast 🚀
+I'm **Kajal Tiwari**, a full-stack developer who cares about how a product works and how it feels. I build with React, Next.js, and TypeScript, then connect the interface to the data and services it needs.
 
----
+My projects explore AI tools, expressive motion, and interactive 3D. I enjoy making complex flows easier to follow, writing maintainable code, and bringing a little personality to everyday interactions.
 
-## 🧑‍💻 About Me
-- Full-Stack Developer with a strong focus on frontend architecture, scalable applications, and performance-driven development. Experienced in building responsive and production-level web applications while maintaining a solid understanding of backend systems, APIs, databases, and application flow.
+## Selected work
 
-I focus on writing structured, maintainable, and efficient code with attention to scalability, usability, and real-world product requirements. Constantly improving across both frontend and backend technologies to build complete and impactful applications.
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Kajaltiwari892/New-Resume-Ai"><img src="assets/project-resume.svg" width="100%" alt="ResumeIQ — AI resume workspace"></a>
+      <p><strong>ResumeIQ</strong></p>
+      <p>A workspace for reviewing resumes and improving weak bullet points. Includes job-description matching, interview preparation, and PDF export.</p>
+      <p><code>Next.js</code> <code>Express</code> <code>MongoDB</code> <code>Gemini</code></p>
+      <p><a href="https://github.com/Kajaltiwari892/New-Resume-Ai">Explore code ↗</a> · <a href="https://new-resume-ai.vercel.app/">Live project ↗</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Kajaltiwari892/Fizzi"><img src="assets/project-fizzi.svg" width="100%" alt="Fizzi — interactive 3D product experience"></a>
+      <p><strong>Fizzi</strong></p>
+      <p>A playful product showcase built around animated 3D soda cans. Scroll-driven scenes and Prismic-managed content bring the experience together.</p>
+      <p><code>Next.js</code> <code>React Three Fiber</code> <code>GSAP</code> <code>Prismic</code></p>
+      <p><a href="https://github.com/Kajaltiwari892/Fizzi">Explore code ↗</a> · <a href="https://fizzi-demo.vercel.app/">Live project ↗</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Kajaltiwari892/BearishWeb"><img src="assets/project-bearish.svg" width="100%" alt="Bearish Web — multilingual product website"></a>
+      <p><strong>Bearish Web</strong></p>
+      <p>A multilingual marketing website for Bearish OS. Animated feature stories, responsive layouts, and locale-based navigation support seven languages.</p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>Tailwind CSS</code> <code>Framer Motion</code></p>
+      <p><a href="https://github.com/Kajaltiwari892/BearishWeb">Explore code ↗</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Kajaltiwari892/Quiz-App"><img src="assets/project-quiz.svg" width="100%" alt="Quiz Launchpad — animated quiz experience"></a>
+      <p><strong>Quiz Launchpad</strong></p>
+      <p>A space-themed quiz with API-powered questions and a countdown timer. Animated results and celebratory feedback give each round a lively finish.</p>
+      <p><code>React</code> <code>Vite</code> <code>Tailwind CSS</code> <code>Framer Motion</code></p>
+      <p><a href="https://github.com/Kajaltiwari892/Quiz-App">Explore code ↗</a> · <a href="https://quiz-app-woad-iota.vercel.app/">Live project ↗</a></p>
+    </td>
+  </tr>
+</table>
 
+## What I work with
 
----
+| Area | Toolkit |
+| :--- | :--- |
+| **Interfaces** | React · Next.js · TypeScript · JavaScript · Tailwind CSS |
+| **Motion & 3D** | GSAP · Motion / Framer Motion · Three.js · React Three Fiber |
+| **Backend & data** | Node.js · Express · MongoDB · PostgreSQL · REST APIs |
+| **Product tools** | Gemini API · Prismic · Clerk · Git · Vercel |
 
-## 🚀 Tech Stack
+<details>
+<summary><strong>A little more about how I build</strong></summary>
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TanStack Query](https://img.shields.io/badge/TanStack%20Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![MUI](https://img.shields.io/badge/MUI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
-![Chakra UI](https://img.shields.io/badge/Chakra%20UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) 
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![Appwrite](https://img.shields.io/badge/Appwrite-FD366E?style=for-the-badge&logo=appwrite&logoColor=white)
-![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
+- I care about clear component structure and code that's easier to revisit.
+- I use motion and feedback to make interactions easier to understand.
+- I consider content, layout, and usability across different screen sizes.
 
-  
----
+</details>
 
-## Github Stats
--![Kajal's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Kajaltiwari892&show_icons=true&theme=dark) 
+<br>
 
+<a href="https://www.linkedin.com/in/kajal-tiwari-46802034a/"><img src="assets/connect.svg" width="100%" alt="Let's build something thoughtful — connect with Kajal on LinkedIn"></a>
 
-
+Have an interesting interface, product idea, or open-source project in mind? [Let's connect.](https://www.linkedin.com/in/kajal-tiwari-46802034a/)

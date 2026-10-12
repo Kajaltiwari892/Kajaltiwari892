@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Kajal Tiwari — full-stack developer</title>
+  <desc id="desc">Design meets development. Thoughtful interfaces. Connected systems. React, Next.js, and TypeScript. An abstract code window sits inside a slowly moving geometric orbit.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#7961C6" stroke-opacity=".065"/>
+    </pattern>
+    <linearGradient id="edge" x1="0" y1="0" x2="1000" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B8A3FF" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#DDE1E8"/>
+      <stop offset="1" stop-color="#6BBCA9" stop-opacity=".55"/>
+    </linearGradient>
+    <clipPath id="card"><rect x="1" y="1" width="998" height="318" rx="23"/></clipPath>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; }
+      .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+      .orbit { transform-origin: 812px 159px; animation: orbit 26s linear infinite; }
+      .window { animation: float 6s ease-in-out infinite; }
+      .signal { animation: signal 3s ease-in-out infinite; }
+      .cursor { animation: blink 2.4s step-end infinite; }
+      @keyframes orbit { to { transform: rotate(360deg); } }
+      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+      @keyframes signal { 0%,100% { opacity: .45; } 50% { opacity: 1; } }
+      @keyframes blink { 0%,70%,100% { opacity: 1; } 75%,95% { opacity: .2; } }
+      @media (prefers-reduced-motion: reduce) { .orbit,.window,.signal,.cursor { animation: none; } }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="998" height="318" rx="23" fill="#F7F8FC" stroke="url(#edge)"/>
+  <g clip-path="url(#card)">
+    <path d="M635 0H1000V320H635Z" fill="url(#grid)"/>
+    <path d="M635 32V288" stroke="#7961C6" stroke-opacity=".16" stroke-dasharray="3 7"/>
+    <path d="M32 52V32H52M948 288H968V268" stroke="#7961C6" stroke-opacity=".4"/>
+    <rect x="54" y="48" width="7" height="7" rx="1.5" fill="#29987D"/>
+    <text x="73" y="56" fill="#65718A" font-size="11" font-weight="600" letter-spacing="2.1">DESIGN MEETS DEVELOPMENT</text>
+    <text x="51" y="139" fill="#202940" font-size="65" font-weight="700" letter-spacing="-3.2">Kajal Tiwari<tspan fill="#7961C6">.</tspan></text>
+    <text x="54" y="180" fill="#7156BA" font-size="24" font-weight="500" letter-spacing="-.5">Full-stack developer.</text>
+    <text x="54" y="212" fill="#66728A" font-size="16" letter-spacing=".1">Thoughtful interfaces. Connected systems.</text>
+    <path d="M54 243H586" stroke="#E0E3EC"/>
+    <text x="54" y="274" fill="#53617B" font-size="12" class="mono">React</text>
+    <circle cx="108" cy="270" r="1.5" fill="#A4ADBF"/>
+    <text x="124" y="274" fill="#53617B" font-size="12" class="mono">Next.js</text>
+    <circle cx="194" cy="270" r="1.5" fill="#A4ADBF"/>
+    <text x="210" y="274" fill="#53617B" font-size="12" class="mono">TypeScript</text>
+    <text x="586" y="274" text-anchor="end" fill="#8290A5" font-size="10" class="mono">IDEA → INTERFACE</text>
+
+    <circle cx="812" cy="159" r="112" stroke="#7961C6" stroke-opacity=".23"/>
+    <circle cx="812" cy="159" r="94" stroke="#29987D" stroke-opacity=".18" stroke-dasharray="2 10"/>
+    <path d="M674 159H699M925 159H950M812 23V46M812 272V295" stroke="#7E8BA0" stroke-opacity=".4"/>
+    <g class="orbit">
+      <circle cx="812" cy="47" r="5" fill="#9B82E1"/>
+      <circle cx="812" cy="47" r="10" stroke="#9B82E1" stroke-opacity=".25"/>
+      <circle cx="812" cy="271" r="3" fill="#29987D"/>
+    </g>
+    <g class="window">
+      <rect x="701" y="83" width="222" height="157" rx="12" fill="#D9DDEA" fill-opacity=".5" transform="translate(0 7)"/>
+      <rect x="701" y="83" width="222" height="157" rx="12" fill="#FFFFFF" stroke="#CCD2E2"/>
+      <path d="M702 114H922" stroke="#E2E6F0"/>
+      <circle cx="718" cy="99" r="3" fill="#9B82E1"/>
+      <circle cx="730" cy="99" r="3" fill="#CBD1E0"/>
+      <circle cx="742" cy="99" r="3" fill="#CBD1E0"/>
+      <text x="906" y="102" text-anchor="end" fill="#75849C" font-size="9" class="mono">portfolio.tsx</text>
+      <path d="M735 136L725 144L735 152M760 136L770 144L760 152M751 132L744 156" stroke="#29987D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="725" y="174" width="41" height="5" rx="2.5" fill="#9B82E1"/>
+      <rect x="774" y="174" width="87" height="5" rx="2.5" fill="#B7C2D6"/>
+      <rect x="736" y="188" width="63" height="5" rx="2.5" fill="#B7C2D6"/>
+      <rect x="807" y="188" width="53" height="5" rx="2.5" fill="#66BBA6"/>
+      <rect x="736" y="202" width="85" height="5" rx="2.5" fill="#B7C2D6"/>
+      <rect x="829" y="202" width="28" height="5" rx="2.5" fill="#B8A3E6"/>
+      <rect class="cursor" x="864" y="199" width="2" height="11" rx="1" fill="#29987D"/>
+      <rect x="860" y="128" width="45" height="29" rx="6" fill="#F0ECF9" stroke="#DDD3EF"/>
+      <path d="M875 142L881 147L890 137" stroke="#8A6BC8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect x="774" y="251" width="170" height="31" rx="7" fill="#EAF5F0" stroke="#BCDACF"/>
+    <circle class="signal" cx="789" cy="266.5" r="3" fill="#29987D"/>
+    <text x="800" y="270" fill="#477C6D" font-size="10" letter-spacing=".4" class="mono">build. learn. refine.</text>
+    <path d="M681 241V261H706" stroke="#29987D" stroke-opacity=".45" stroke-linecap="round"/>
+    <path d="M942 64H931V75" stroke="#7961C6" stroke-opacity=".6" stroke-linecap="round"/>
+    <text x="945" y="42" text-anchor="end" fill="#8290A5" font-size="9" letter-spacing="1.2" class="mono">KT / 001</text>
+  </g>
+</svg>
